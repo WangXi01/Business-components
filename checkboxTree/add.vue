@@ -225,6 +225,7 @@ export default {
           ],
         },
       ];
+      this.tableData = this.$refs.checkTreeRef.formatTreeData(this.tableData)
     },
   },
 };
